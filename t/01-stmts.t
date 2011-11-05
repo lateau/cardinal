@@ -1,6 +1,6 @@
 # If this is to test the basic statements then we can't really use Test.rb
 # Although of course Test.rb itself contains all the statements tested
-puts "1..30"
+puts "1..33"
 
 if 1 then
   puts "ok 1"
@@ -146,3 +146,17 @@ puts "ok 30"
 
 (-1.0)
 puts "ok 31"
+
+if true; a_in_if = 1; end
+if a_in_if
+  puts "ok 32"
+else
+  puts "not ok 32"
+end
+
+unless false; b_in_unless = 1; end
+if b_in_unless
+  puts "ok 33"
+else
+  puts "not ok 33"
+end
