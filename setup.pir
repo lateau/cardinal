@@ -77,16 +77,16 @@ MSG
     $P0 = new 'Hash'
     $P0['name'] = 'Cardinal'
     $P0['abstract'] = 'Cardinal - Ruby compiler for Parrot'
-    $P0['authority'] = 'http://github.com/cardinal'
+    $P0['authority'] = 'http://github.com/parrot'
     $P0['description'] = 'Cardinal is a Ruby compiler for Parrot.'
-    $P1 = split ',', 'ruby'
+    $P1 = split ',', 'parrot,cardinal,ruby'
     $P0['keywords'] = $P1
     $P0['license_type'] = 'Artistic License 2.0'
     $P0['license_uri'] = 'http://www.perlfoundation.org/artistic_license_2_0'
     $P0['copyright_holder'] = 'Parrot Foundation'
-    $P0['checkout_uri'] = 'git://github.com/cardinal/cardinal.git'
-    $P0['browser_uri'] = 'http://github.com/cardinal/cardinal'
-    $P0['project_uri'] = 'http://github.com/cardinal/cardinal'
+    $P0['checkout_uri'] = 'git://github.com/parrot/cardinal.git'
+    $P0['browser_uri'] = 'http://github.com/parrot/cardinal'
+    $P0['project_uri'] = 'http://github.com/parrot/cardinal'
 
     # build
     $P2 = new 'Hash'
