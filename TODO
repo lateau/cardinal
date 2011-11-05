@@ -4,6 +4,8 @@ Parser needs to be re-written in NQP-rx
 Parser is incomplete
 Standard Library needs to be finished
 Rewrite object model in 6model
+Loader for ruby-ext
+Vtable is needed to make cardinal understands singletone & instance methods
 
 Test suite
 ----------
