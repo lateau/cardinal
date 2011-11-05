@@ -25,6 +25,10 @@ To run some tests run:
     rake test:all
     rake test:[name]
 
+Submit a report:
+
+    rake smolder
+
 You might get all rake tasks with:
 
     rake -T
@@ -39,6 +43,10 @@ Testing:
 
     parrot setup.pir test
 
+Submit a report:
+
+    parrot setup.pir smoke
+
 Note that some of them will probably fail, as Cardinal is not yet complete
 
 If you want to install Cardinal to your Parrot install directory, run:
@@ -46,6 +54,22 @@ If you want to install Cardinal to your Parrot install directory, run:
     parrot setup.pir install
 
 The compiler will be available as parrot-cardinal
+
+=== Build with Winxed
+
+Also Cardinal can be nicely works with Winxed 1.2.0+:
+
+    winxed setup.winxed build
+    winxed setup.winxed test
+    winxed setup.winxed install
+
+Submit a report:
+
+    parrot setup.winxed smoke
+
+For more usages:
+
+    winxed setup.winxed help
 
 == Contributing
 
